@@ -1,0 +1,39 @@
+# ✅ Node modules
+node_modules/
+
+# ✅ Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ✅ Environnement local
+.env
+
+# ✅ Cache
+.npm/
+.yarn/
+.pnp.*
+.cache/
+dist/
+coverage/
+
+# ✅ Jest
+coverage/
+jest-cache/
+jest-config.js
+jest.setup.js
+test-results.xml
+
+# ✅ Babel
+babel.config.js
+.babelrc
+.babelrc.js
+
+# ✅ ESLint
+.eslintcache
+
+# ✅ IDE et système (optionnel)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
