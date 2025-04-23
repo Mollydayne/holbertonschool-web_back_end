@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 """
-Asyncio : not a harry potter spell, module to let Python wait while somthing else is taking time to do
+Asyncio : not a harry potter spell,
+module to let Python wait while somthing else is taking time to do
 Random : module to have a random float for delay
 """
 
