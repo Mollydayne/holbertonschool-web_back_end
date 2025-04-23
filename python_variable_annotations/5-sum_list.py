@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+"""
+Need to add typing to handle complx typs
+"""
+
 from typing import List
 
 """
