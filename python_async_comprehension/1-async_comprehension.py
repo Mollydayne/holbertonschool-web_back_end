@@ -3,13 +3,11 @@
 """
 Asyncio : not a harry potter spell,
 module to let Python wait while somthing else is taking time to do
-Random : module to have a random float for delay
 async_generator : function that will loop 10 times and generate a random
 number with 1 second delay
 """
 
 import asyncio
-import random
 
 async_generator = __import__('0-async_generator').async_generator
 
