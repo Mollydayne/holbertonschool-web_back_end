@@ -35,7 +35,8 @@ class Server:
         return self.__indexed_dataset
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
-        """Returns a dictionary with pagination info that handles deleted entries."""
+        """Returns a dictionary with pagination
+        """
         indexed_dataset = self.indexed_dataset()
 
         assert index is not None and index in indexed_dataset
