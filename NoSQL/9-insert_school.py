@@ -4,9 +4,9 @@ Task 9. Insert a document in Python
 """
 
 
-def list_all(mongo_collection):
+def insert_school(mongo_collection, **kwargs):
     """
-    Funtion to inserts a new document in a collection based on kwargs
+    Inserts a new document in a collection based on kwargs
     """
     result = mongo_collection.insert_one(kwargs)
     return result.inserted_id
