@@ -1,13 +1,13 @@
-// Affiche le message d’accueil
+// Module import 
 process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
-// Lis l'entrée utilisateur
+// On écoute
 process.stdin.on('data', (data) => {
-  const name = data.toString().trim(); 
-  process.stdout.write(`Your name is: ${name}\n`);
+  // On affiche le nom saisi
+  process.stdout.write(`Your name is: ${data}`);
 });
 
-// Quand l’entrée standard est terminée
+// On ecoute Ctrl+D ou pipe
 process.stdin.on('end', () => {
   process.stdout.write('This important software is now closing\n');
 });
